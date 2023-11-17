@@ -19,6 +19,7 @@ Out put:- The body mass index(BMI)
 •	operation                                       
 
  Calculate the BMI using the formula: BMI = weight / (height * height)
+
 Display the calculated BMI 
 
 
