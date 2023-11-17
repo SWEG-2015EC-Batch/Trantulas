@@ -11,7 +11,7 @@ Read the values of capacity and miles per gallon
 Calculate the number of miles the automobile can be driven without refueling using the formula: miles = capacity * miles per gallon
 Display the calculated number of miles
 
-ALGORITHM IN PSEUDOCODE
+Pseudocode
 
 step 1: start
 step 2: read the capacity and miles Per Gallon of the automobile
