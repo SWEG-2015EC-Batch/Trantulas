@@ -9,6 +9,6 @@ int main()
     cout<<"Enter Height(in M)";
     cin>> Height;
     BMI=Weight/(Height*Height);
-    cout<<"The Result of your BMI is;"<<BMI;
+    cout<<"The Result of your BMI is"<<BMI;
     return 0;
 }
