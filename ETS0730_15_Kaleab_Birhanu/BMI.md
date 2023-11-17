@@ -2,7 +2,7 @@ Problem analysis
 
 Input :- Height ,weight                                                   
 Out put:- The body mass index(BMI)
-operation  
+operation:
 Calculate the BMI using the formula: BMI = weight / (height * height)
 Display the calculated BMI
 
