@@ -20,3 +20,15 @@ Calculate the number of miles the automobile can be driven without refueling usi
 
 Display the calculated number of miles
 
+ALGORITHM IN PSEDOCODE
+
+step 1: start
+
+step 2: read the capacity and miles Per Gallon of the automobile
+
+step 3: miles<--capacity * miles Per Gallon
+
+step 4: print miles
+
+step 5: stop
+
