@@ -10,7 +10,7 @@ int main() {
     cout << "Enter the value of y: ";
     cin >> y;
 
-    double result = pow(x, y);
+    double result = pow(x, y); 
 
 
     cout << "The result of " << x << "^" << y << " is: " << result << endl;
