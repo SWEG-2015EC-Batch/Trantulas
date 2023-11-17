@@ -21,6 +21,7 @@ Convert the letter to its uppercase or lowercase equivalent
 Display the converted letter
 
 . ALGORITHM IN PSEDOCODE
+
 step 1: start
 
 step 2: read letter
