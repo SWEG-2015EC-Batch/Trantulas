@@ -1,6 +1,7 @@
  Problem analysis
         
-         Input                                                                                                                      
+         Input                    
+         
 	the capacity of the fuel tank in gallons                                      
 
 	the miles per gallon the automobile can be driven
@@ -9,7 +10,7 @@
 
 miles without refueling
 
-Process/ operation
+Operation
 -
 -  Prompt user for fuel tank capacity and miles per gallon
 
