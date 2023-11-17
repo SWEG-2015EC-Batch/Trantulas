@@ -1,4 +1,4 @@
-//programing that express the result of x^y
+//programing that express power function 
 #include <iostream>
 #include <cmath>
 using namespace std;
