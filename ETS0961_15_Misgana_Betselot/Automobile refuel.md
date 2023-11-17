@@ -3,10 +3,9 @@ Problem analysis
 Input 
 
 the capacity of the fuel tank in gallons 
-
-miles without refueling
  
 the miles per gallon the automobile can be driven
+
 output
 
 miles without refueling
