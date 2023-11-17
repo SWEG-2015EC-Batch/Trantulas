@@ -10,16 +10,16 @@ int main()
     if (islower (Letter))
         {
             Letter = toupper(Letter);
-            cout<< " the upper case letter is" <<Letter;
+            cout<< " the equivalent upper case letter is" <<Letter;
         }
     else if (isupper(Letter))
 		{
 		Letter = tolower(Letter);
-		cout<< " the lower case letter is" <<Letter;
+		cout<< " the equivalent lower case letter is" <<Letter;
 		}
 	else
 		{
-        cout << "The character " << Letter << " is not a letter."<< endl;
+        cout << "Invalid input! Please enter a valid letter." << endl
     	}
 
     return 0;
