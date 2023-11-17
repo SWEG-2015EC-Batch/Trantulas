@@ -1,7 +1,6 @@
  Problem analysis
         
          Input                                                                                                                      
-
 	the capacity of the fuel tank in gallons                                      
 
 	the miles per gallon the automobile can be driven
