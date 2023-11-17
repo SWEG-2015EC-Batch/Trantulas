@@ -13,12 +13,12 @@ Step 8: stop
 
 Problem analysis
 
-Input
+Input:
 Enter a letter
-Output
+Output:
 Uppercase equivalent
 Lowercase equivalent
-Process /operation
+Process:
 Prompt user for a letter
 Read the input letter
 Convert the letter to its uppercase or lowercase equivalent 
