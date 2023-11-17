@@ -1,3 +1,4 @@
+//This program written to calculate BMI index
 #include <iostream>
 using namespace std;
 int main()
@@ -8,6 +9,6 @@ int main()
     cout<<"Enter Height(in M)";
     cin>> Height;
     BMI=Weight/(Height*Height);
-    cout<<"The Result is;"<<BMI;
+    cout<<"The Result of your BMI is;"<<BMI;
     return 0;
 }
