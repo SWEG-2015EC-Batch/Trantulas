@@ -20,7 +20,7 @@ Calculate the number of miles the automobile can be driven without refueling usi
 
 Display the calculated number of miles
 
-ALGORITHM IN PSEDOCODE
+ALGORITHM IN PSEUDOCODE
 
 step 1: start
 
