@@ -1,11 +1,11 @@
 Program analysis
 
-Input      
+Input:
 Enter the value of x 
 Enter the value of y
-Output
+Output:
 The  Result of XY
-Process/operation
+Process/operation:
 Prompt user for the values of X and Y
 Read the values of X and Y
 Calculate the result of X^Y using the pow() function
