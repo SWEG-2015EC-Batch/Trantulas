@@ -1,4 +1,4 @@
-//The program calculate time required in second to to send a file in byte
+//A program calculating time required in second to to send a file in byte
 #include <iostream>
 using namespace std;
 int main() {
