@@ -9,7 +9,7 @@ Calculate the BMI using the formula: BMI = weight / (height * height)
 Display the calculated BMI
 
  
-ALGORITHM IN PSEDOCODE
+ALGORITHM IN PSEUDOCODE
 
 step 1: start
 
