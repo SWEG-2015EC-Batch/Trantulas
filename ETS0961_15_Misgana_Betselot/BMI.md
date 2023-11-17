@@ -6,3 +6,9 @@ Out put:- The body mass index(BMI)
 Display the calculated BMI using cout.
 End the program
  
+ ALGORITHM IN PSEDOCODE
+step 1: start
+step 2: read the height and weight of the user
+step 3: BMI<-- (weight/(height^2))
+step 4: print BMI
+step 5: stop
