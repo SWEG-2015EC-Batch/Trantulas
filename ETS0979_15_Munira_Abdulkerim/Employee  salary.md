@@ -2,9 +2,9 @@ Problem analysis
 
 Input
 
-    Employee name
+  Employee name
 
-    Weekly working hours
+  Weekly working hours
 
     Bonus rate per hour
 
