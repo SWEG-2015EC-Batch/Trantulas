@@ -19,7 +19,7 @@ int main(){
     cout<<"your gender is male"<<endl;
    }
 
-   cout<<"height :";
+   cout<<"height:";
    cin>>h;
    cout<<"weight: ";
    cin>>w;
