@@ -5,7 +5,7 @@ int main(){
     int i,n;
    double w,h,bmi;
    char gender;
-   cout<<"enter the number of people";
+   cout<<"please enter the number of people  ";
    cin>>n;
    for(i=1;i<=n;i++){
 lb:
@@ -18,10 +18,10 @@ lb:
     cout<<"your gender is male"<<endl;
    }
    else{
-    cout <<"invalid gender"<<endl;
+    cout <<"invalid gender! please enter valid letter"<<endl;
     goto lb;
    }
-   cout<<"height:";
+   cout<<"height :";
    cin>>h;
    cout<<"weight: ";
    cin>>w;
@@ -31,36 +31,36 @@ lb:
 
     if (gender=='F'||gender=='f'){
             if ( bmi < 18.5){
-        cout<<" you are under weight"<<endl;
+        cout<<"   your BMI show that you are under weight"<<endl;
         }
         else if( bmi>=18.5&&bmi<=24.9){
-                cout<<" you are normal weight"<<endl;
+                cout<<"  your BMI show that you are normal weight"<<endl;
         }
         else if(bmi>=25&&bmi<=29.9){
-            cout<<" you are over weight"<<endl;
+            cout<<"   your BMI show that you are over weight"<<endl;
         }
         else {
-            cout<<" you are obesity"<<endl;
+            cout<<"  your BMI show that you have obesity"<<endl;
         }
 
     }
     if (gender=='M'||gender=='m'){
             if ( bmi < 20.5){
-        cout<<" you are under weight"<<endl;
+        cout<<"  your BMI show that you are under weight"<<endl;
         }
         else if( bmi>=20.5 && bmi<=25.9){
-                cout<<" you are normal weight"<<endl;
+                cout<<"  your BMI show that you are normal weigh"<<endl;
         }
         else if(bmi>=26&&bmi<=29.9){
-            cout<<" you are over weight"<<endl;
+            cout<<"  your BMI show that you are over weight"<<endl;
         }
         else {
-            cout<<" you are in obesity"<<endl;
+            cout<<"  your BMI show that you have obesity"<<endl;
         }
     }
    }
 
-cout<<"THANK YOU!";
+cout<<"THANK YOU for using our program";
    return 0;
 
 }
