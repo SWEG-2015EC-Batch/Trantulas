@@ -1,57 +1,62 @@
 //BMI CALCULATOR
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-   double w,h,bmi;
-   char gender;
+int main()
+{
+  double Weight,Height,BMI;
+   char f,m,gender;
 
+
+lb:
    cout<<"enter gender(F/M):";
    cin>>gender;
-
-   if(gender=='F'){
+   if(gender=='F'||gender=='f'){
     cout<<"your gender is female"<<endl;
    }
-   else{
+   else if (gender=='M'||gender=='m'){
     cout<<"your gender is male"<<endl;
    }
+   else{
+    cout <<"invalid gender! please enter valid letter"<<endl;
+    goto lb;
+   }
+   cout<<" Weight(in Kg)";
+    cin>> Weight;
+    cout<<" Height(in M)";
+    cin>> Height;
+    BMI=Weight/(Height*Height);
+    cout<<"BMI="<<BMI;
+    if(gender=='F'||gender=='f'){
+           if(BMI<18.5){
+         cout<<"   your BMI show that you are under weight"<<endl;
+           }
 
-   cout<<"height:";
-   cin>>h;
-   cout<<"weight: ";
-   cin>>w;
-   bmi = w/(h*h);
-   cout<<"bmi is: "<<bmi;
-
-    if (gender=='F'){
-            if ( bmi < 18.5){
-        cout<<" you are under weight"<<endl;
-        }
-        else if(bmi>=18.5 && bmi<=24.9){
-                cout<<" you are normal weight"<<endl;
-        }
-        else if(bmi>=20.5 && bmi<=29.9){
-            cout<<" you are over weight"<<endl;
-        }
-        else {
-            cout<<" you are obese"<<endl;
-        }
-
+    else if(BMI>18.5 && BMI<=24.9){
+        cout<<"  your BMI show that you are normal weight"<<endl;
     }
-    if (gender=='M'){
-            if ( bmi < 20.5){
-        cout<<" you are under weight"<<endl;
-        }
-        else if( bmi>=20.5 && bmi<=25.9){
-                cout<<" you are normal weight"<<endl;
-        }
-        else if(bmi>=26 && bmi<=29.9){
-            cout<<" you are over weight"<<endl;
-        }
-        else {
-            cout<<" you are obese"<<endl;
-        }
+    else if(BMI>=25 && BMI<=29.9){
+        cout<<"  your BMI show that you are over weight"<<endl;
+    }
+    else{
+        cout<<"  your BMI show that you have obesity"<<endl;
+    }
     }
 
-   return 0;
+     if(gender=='M'||gender=='m'){
+           if(BMI<20.5){
+         cout<<"   your BMI show that you are under weight"<<endl;
+           }
 
+    else if(BMI>20.5 && BMI<=25.9){
+        cout<<"  your BMI show that you are normal weight"<<endl;
+    }
+    else if(BMI>=18.5 && BMI<=24.9){
+        cout<<"  your BMI show that you are over weight"<<endl;
+    }
+    else{
+        cout<<"  your BMI show that you have obesity"<<endl;
+    }
+    }
+
+    return 0;
 }
