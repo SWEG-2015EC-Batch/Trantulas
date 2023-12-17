@@ -19,15 +19,25 @@ Calculate the bonus payment using the formula: bonus_payment = bonus_rate_per_ho
 Display the gross salary, net salary, and bonus payment.
 
 
+
    Pseudocode
 
 step 1: start
+
 step 2: read the Employee Name,weekly working hours,bonus rate per hour,base salary
+
 step 3: totalWeeklySalary <-- (weeklyWorkingHours * baseSalary) + (bonusRatePerHour * weeklyWorkingHours)
+
 step 4: bonusPayment <-- bonusRatePerHour * weeklyWorkingHours
+
 step 5: grossSalary  <-- totalWeeklySalary * 4
+
 step 6: pensionDeduction <--  grossSalary * 0.05
+
 step 7: taxDeduction <-- grossSalary * 0.15
+
 step 8: netSalary  <-- grossSalary - (pensionDeduction + taxDeduction)
+
 step 9: print (Employee Name,Gross Salary,Net Salary,Bonus Payment). 
+
 step 10: stop
