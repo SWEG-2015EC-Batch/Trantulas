@@ -17,7 +17,11 @@ Display the calculated result
 pseudocode
 
 step 1: start
+
 step 2: read the base(x) and the exponent(y) 
+
 step 3: result<--x^y
+
 step 4: print result
+
 step 5: stop
