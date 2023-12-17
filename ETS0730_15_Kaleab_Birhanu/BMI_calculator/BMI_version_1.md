@@ -10,6 +10,7 @@ Display the calculated BMI
 
 
 
+
 Pseudocode
 
 step 1: start
