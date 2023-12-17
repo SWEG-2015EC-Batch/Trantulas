@@ -1,4 +1,4 @@
-// basic arithmetic calculator
+// basic calculator that performs basic arithmetic operations 
 #include<iostream>
 using namespace std;
 
