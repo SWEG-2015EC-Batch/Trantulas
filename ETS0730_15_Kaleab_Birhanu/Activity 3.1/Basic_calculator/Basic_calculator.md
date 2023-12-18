@@ -53,6 +53,7 @@ Problem analysis
 Flowchart
 
 
-![Uploading Blank diagram.jpeg…]()
+![Blank diagram](https://github.com/SWEG-2015EC-Batch/Trantulas/assets/149373883/d6d48704-3dbd-4b52-b132-4032abb50dd5)
+
 
      
