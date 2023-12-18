@@ -1,34 +1,32 @@
  pseudocode
 
-START
-  DECLARE op, exitcode AS CHAR
-  DECLARE num1, num2 AS FLOAT
-  DO
-    PRINT "Enter the first number: "
-    INPUT num1
-    PRINT "Enter operator: (+, -, *, /)   "
-    INPUT op
-    PRINT "Enter the second number: "
-    INPUT num2
+    1. Declare character variables 'op' and 'exitcode'
 
-    SWITCH op
-      CASE '+':
-        PRINT num1 + num2
-      CASE '-':
-        PRINT num1 - num2
-      CASE '*':
-        PRINT num1 * num2
-      CASE '/':
-        IF num2 != 0 THEN
-          PRINT num1 / num2
-        ELSE
-          PRINT "undefined operation !"
-        ENDIF
-      DEFAULT:
-        PRINT "Invalid operator!"
-    ENDSWITCH
+    2. Declare float variables 'num1' and 'num2'
 
-    PRINT "Enter 0 to exit, any other key to continue: "
-    INPUT exitcode
-  WHILE exitcode != '0'
-END
+    3. Do the following steps in a loop until 'exitcode' is '0':
+
+         a. Prompt the user to enter the first number and store it in 'num1'
+
+         b. Prompt the user to enter an operator and store it in 'op'
+
+         c. Prompt the user to enter the second number and store it in 'num2'
+
+         d. Perform the operation based on the value of 'op':
+
+            1. If 'op' is '+', output the sum of 'num1' and 'num2'
+
+            2. If 'op' is '-', output the difference of 'num1' and 'num2'
+
+            3 If 'op' is '*', output the product of 'num1' and 'num2'
+
+            4. If 'op' is '/', check if 'num2' is not zero:
+
+                  4.1. If 'num2' is not zero, output the division of 'num1' by 'num2'
+
+                  4.2. If 'num2' is zero, output "undefined operation !"
+
+            5. If 'op' is none of the above, output "Invalid operator!"
+
+         e. Prompt the user to enter '0' to exit or any other key to continue and store it in 'exitcode'
+     5. End
