@@ -1,3 +1,4 @@
+// a program that calculates grade of students
 #include <iostream>
 using namespace std;
 
@@ -50,6 +51,6 @@ int main() {
          cout<< "Your Total mark is "<<totalMark<<endl;
         cout<< "Your grade is F"<<endl;
     }
-  
 return 0;
 }
+
