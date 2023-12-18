@@ -1,4 +1,4 @@
-//playing with numbers
+// playing with digits
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -22,7 +22,6 @@ int countDigits(int num) {
     }
     return count;
 }
-
 // Function to find the sum of digits in a number
 int sumOfDigits(int num) {
     int sum = 0;
@@ -58,7 +57,6 @@ void firstAndLastDigit(int num) {
     cout << "Last Digit: " << lastDigit << endl;
    cout << "Sum of First and Last Digit: " << sum << endl;
 }
-
 // Function to swap the first and last digit
 int swapFirstAndLastDigit(int num) {
     int digits = countDigits(num);
@@ -72,12 +70,10 @@ int swapFirstAndLastDigit(int num) {
 
     return lastDigit * static_cast<int>(pow(10, digits - 1)) + middlePart * 10 + firstDigit;
 }
-
 // Function to check if a number is palindrome
 bool isPalindrome(int num) {
     return num == reverseNumber(num);
 }
-
 // Function to find the frequency of each digit
 void digitFrequency(int num) {
     int frequency[10] = {0};
@@ -93,7 +89,6 @@ void digitFrequency(int num) {
         }
     }
 }
-
 // Function to check if a number is Armstrong
 bool isArmstrong(int num) {
     int originalNum = num;
@@ -122,7 +117,6 @@ bool isStrong(int num) {
     }
     return sum == originalNum;
 }
-
 // Function to check if a number is Perfect
 bool isPerfect(int num) {
     int sum = 0;
@@ -160,8 +154,7 @@ int main() {
                 cin >> num;
                 cout << "Reversed number: " << reverseNumber(num) << endl;
                 break;
-
-            case 2:
+case 2:
                 cout << "Enter an integer: ";
                 cin >> num;
                 cout << "Number of digits: " << countDigits(num) << endl;
