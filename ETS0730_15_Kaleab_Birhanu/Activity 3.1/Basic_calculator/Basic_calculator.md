@@ -1,3 +1,54 @@
+Problem analysis
+
+       Input:
+                The first number for the arithmetic operation, input by the user.
+                The operator for the arithmetic operation, input by the user. It can be ‘+’, ‘-’, ‘*’, or ‘/’.
+                The second number for the arithmetic operation, input by the user.
+                The code to decide whether to continue or exit the loop, input by the user. If ‘0’, the program exits.
+       
+       Output:
+                  It’s either the sum, difference, product, quotient, “undefined operation !” (for division by zero),
+                  or “Invalid operator!” (for an invalid operator). The program continues to prompt for input and perform operations until exitcode is ‘0’.
+        
+       Operation:
+                   If op is ‘+’, the operation is addition.
+                   If op is ‘-’, the operation is subtraction.
+                   If op is ‘*’, the operation is multiplication.
+                   If op is ‘/’, the operation is division. However, if num2 is 0, the division operation is undefined.
+                   If op is none of the above, it’s an invalid operation.
+                    
+                    
+                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  pseudocode
 
     1. Declare character variables 'op' and 'exitcode'
@@ -30,3 +81,4 @@
 
          e. Prompt the user to enter '0' to exit or any other key to continue and store it in 'exitcode'
      5. End
+     
