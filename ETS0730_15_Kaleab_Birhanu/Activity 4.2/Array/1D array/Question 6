@@ -1,8 +1,9 @@
 // A program that store a list of number and print the even numbers in the array in reverse order they are entered.
 #include <iostream>
 using namespace std;
-int main()
-{
+
+int main(){
+
     int n;
     cout << "Enter size of array: ";
     cin >> n;
