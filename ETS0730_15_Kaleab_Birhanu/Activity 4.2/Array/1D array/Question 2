@@ -1,3 +1,5 @@
+/* program to input eight integer numbers into an array named temp. As each number is input, add
+the number into a total.*/
 #include <iostream>
 using namespace std;
 int main(){ 
