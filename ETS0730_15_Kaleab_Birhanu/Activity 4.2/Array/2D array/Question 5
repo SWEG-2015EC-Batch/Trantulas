@@ -1,0 +1,36 @@
+/* The program initializes a 2D array with indices representing people and initializes it to represent a specific configuration.
+It then counts the number of pairs of friends in the array, ensuring each pair appears twice, resulting in 6 pairs. */
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    char friends[4][4] = {
+        {' ', '*', ' ', '*'},
+        {'*', ' ', '*', ' '},
+        {' ', '*', ' ', '*'},
+        {'*', ' ', '*', ' '}};
+
+    int count = 0;
+
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = i + 1; j < 4; j++)
+        {
+            if (friends[i][j] == '*')
+            {
+                count++;
+            }
+        }
+    }
+    for ( int i = 0; i < 4; ++i){
+        for (int j = 0; j < 4; ++j){
+            cout << friends[i][j] << " " << " | ";
+        }
+        cout << endl;
+    }
+
+    cout << "Number of friend pairs: " << count << endl;
+
+    return 0;
+}
