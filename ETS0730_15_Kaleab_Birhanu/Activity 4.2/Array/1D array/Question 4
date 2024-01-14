@@ -3,6 +3,7 @@
 in table form */
 #include <iostream>
 using namespace std;
+
 int main(){ 
     double volts[9]={11.95, 16.32, 12.15, 8.22, 15.98,26.22, 13.54, 6.45,17.59};
 
