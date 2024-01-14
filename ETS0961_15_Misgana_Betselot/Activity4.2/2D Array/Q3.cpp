@@ -1,43 +1,45 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
-int main() {
-    int testScore, assignmentScore, quizScore, projectScore, finalScore;
-    cout << "Enter the test score: ";
-    cin >> testScore;
-    cout << "Enter the assignment score: ";
-    cin >> assignmentScore;
-    cout << "Enter the quiz score: ";
-    cin >> quizScore;
-    cout << "Enter the project score: ";
-    cin >> projectScore;
-    cout << "Enter the final score: ";
-    cin >> finalScore;
-    int totalMark = testScore + assignmentScore + quizScore + projectScore + finalScore;
-    string scoreLevel;
-    if (totalMark >= 80) {
-        scoreLevel = "Excellent";
-    } else if (totalMark >= 60) {
-        scoreLevel = "Very Good";
-    } else if (totalMark >= 50) {
-        scoreLevel = "Fair";
-    } else if (totalMark >= 40) {
-        scoreLevel = "Poor";
-    } else {
-        scoreLevel = "Fail";
-    }
-
-    cout << "----------------------------------------" << endl;
-    cout << "| Component     | Score Level | Mark    |" << endl;
-    cout << "----------------------------------------" << endl;
-    cout << "| Test          | " << setw(11) << scoreLevel << " | " << setw(7) << testScore << " |" << endl;
-    cout << "| Assignment    | " << setw(11) << scoreLevel << " | " << setw(7) << assignmentScore << " |" << endl;
-    cout << "| Quiz          | " << setw(11) << scoreLevel << " | " << setw(7) << quizScore << " |" << endl;
-    cout << "| Project       | " << setw(11) << scoreLevel << " | " << setw(7) << projectScore << " |" << endl;
-    cout << "| Final         | " << setw(11) << scoreLevel << " | " << setw(7) << finalScore << " |" << endl;
-    cout << "----------------------------------------" << endl;
-    cout << "| Total         |              | " << setw(7) << totalMark << " |" << endl;
-    cout << "----------------------------------------" << endl;
-    
-    return 0;
+int main(){
+    int n;
+    float examscores[20],
+    test[20],
+    assignment[20],
+    quiz[20],
+    project[20],
+    final[20];
+    string status[20];
+     cout<<"enter the number of students: ";
+     cin>>n;
+    for(int i=0;i<n;i++){
+        cout<<"enter the test of student "<<i+1<<": ";
+        cin>>test[i];
+        cout<<"enter the assignment of student "<<i+1<<": ";
+        cin>>assignment[i];
+        cout<<"enter the quiz of student "<<i+1<<": ";
+        cin>>quiz[i];
+        cout<<"enter the project of student "<<i+1<<": ";
+        cin>>project[i];
+        cout<<"enter the final of student "<<i+1<<": ";
+        cin>>final[i];
+      examscores[i]=test[i]+assignment[i]+quiz[i]+project[i]+final[i];
+    if(examscores[i]>=80){
+        status[i]="Excellent";
+       }else if(examscores[i]>=60){
+        status[i]="Very Good";
+       }else if(examscores[i]>=50){
+        status[i]="Fair";
+       }else if(examscores[i]>=40){
+        status[i]="Poor";
+       }else if(examscores[i]<40){
+        status[i]="Fail";
+       }else{
+        status[i]="Error";
+       }
+       }
+    cout<<"students \t "<<"totalscore\t"<<"score status"<<endl;
+   for(int i=0;i<n;i++){
+    cout<<"student "<<i+1<<"\t\t"<<examscores[i]<<"\t"<<status[i]<<endl;
+   }
+     return 0;
 }
