@@ -146,12 +146,16 @@ cout << "Do you want to add another employee? (y/n): ";
                 cout << setw(25) << left << "Hourly Workers" << setw(15) << hourlyCount << setw(15) << hourlyTotal << setw(15) << hourlyMax << setw(15) << hourlyMin << endl;
                 cout << setw(25) << left << "Commission Workers" << setw(15) << commissionCount << setw(15) << commissionTotal << setw(15) << commissionMax << setw(15) << commissionMin << endl;
                 cout << setw(25) << left << "Pieceworkers" << setw(15) << pieceworkerCount << setw(15) << pieceworkerTotal << setw(15) << pieceworkerMax << setw(15) << pieceworkerMin << endl;
+                int totalEmployees=managerCount + hourlyCount +commissionCount + pieceworkerCount;
+                double totalPayroll=managerTotal + hourlyTotal + commissionTotal + pieceworkerTotal;
+                cout <<  "\nTotal Employees:  " <<totalEmployees<<endl;
+                cout << "Total Payroll:   "<< totalPayroll<< endl;
                 break;
             }
             case '4': {
                 // Quit
                 cout << setw(15) << "Name" << setw(15) << "Pay Code" << setw(15) << "Weekly Salary" << endl;
-                cout << setw(15) << "________" << setw(15) << "____________" << setw(15) << "_________________" << endl;
+                cout << setw(15) << "_________" << setw(15) << "___________" << setw(15) << "____________" << endl;
                 for (int i = 0; i < numEmployees; ++i) {
                     cout << setw(15) << employees[i].name << setw(15) << employees[i].payCode << setw(15) << fixed << setprecision(2) << employees[i].salary << endl;
                 }
